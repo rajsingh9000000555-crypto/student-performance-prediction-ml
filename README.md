@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Performance Prediction (ML Project)
 
 A modular, end-to-end demonstration predicting a student's final score (regression) and underperformance risk (classification), with a Streamlit interface.
@@ -33,3 +34,6 @@ Study hours, attendance, previous score, assignment score, sleep, extracurricula
 
 ## Responsible use
 Risk flags should be used to offer support, not punish or label students. Check model errors across groups, avoid sensitive proxies where possible, use transparent thresholds, and obtain institutional approval for real data.
+=======
+# Student-Performance-Predictor
+>>>>>>> 3a4062c12e7b0f14e17b7f43b4cd8228e7f28fd6
