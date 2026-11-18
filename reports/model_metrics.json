@@ -1,0 +1,45 @@
+{
+  "best_regression_model": "RandomForest",
+  "regression_metrics": {
+    "RandomForest": {
+      "MAE": 6.6933934202999374,
+      "RMSE": 8.269761202252555,
+      "R2": 0.49693401470726983
+    },
+    "HistGradientBoosting": {
+      "MAE": 7.081865719147144,
+      "RMSE": 8.744209197254849,
+      "R2": 0.43755495664255384
+    }
+  },
+  "risk_auc": 0.8403249527277821,
+  "risk_report": {
+    "0": {
+      "precision": 0.7984496124031008,
+      "recall": 0.7862595419847328,
+      "f1-score": 0.7923076923076923,
+      "support": 131.0
+    },
+    "1": {
+      "precision": 0.7477477477477478,
+      "recall": 0.7614678899082569,
+      "f1-score": 0.7545454545454545,
+      "support": 109.0
+    },
+    "accuracy": 0.775,
+    "macro avg": {
+      "precision": 0.7730986800754243,
+      "recall": 0.7738637159464948,
+      "f1-score": 0.7734265734265734,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.7754225155387946,
+      "recall": 0.775,
+      "f1-score": 0.7751573426573427,
+      "support": 240.0
+    }
+  },
+  "risk_threshold_score": 50,
+  "data_note": "Synthetic demo data. Do not present results as real institutional performance."
+}
